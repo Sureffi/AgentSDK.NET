@@ -1,0 +1,20 @@
+[
+ "--output-format",
+ "stream-json",
+ "--verbose",
+ "--system-prompt",
+ "",
+ "--tools",
+ "Bash,TaskOutput,TaskStop",
+ "--allowedTools",
+ "Bash,TaskOutput,TaskStop",
+ "--max-turns",
+ "6",
+ "--model",
+ "haiku",
+ "--setting-sources=",
+ "--effort",
+ "low",
+ "--input-format",
+ "stream-json"
+]

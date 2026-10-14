@@ -1,0 +1,2 @@
+{"type": "control_request", "request_id": "req_1_4b8306b3", "request": {"subtype": "initialize", "hooks": null}}
+{"type": "user", "session_id": "", "message": {"role": "user", "content": "A train leaves at 14:35 and arrives at 17:10. How many minutes is the trip? Think it through, then reply with just the number."}, "parent_tool_use_id": null}

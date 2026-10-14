@@ -1,0 +1,2 @@
+{"type": "control_request", "request_id": "req_1_a1e823e3", "request": {"subtype": "initialize", "hooks": null}}
+{"type": "user", "session_id": "", "message": {"role": "user", "content": "Search the web for: what year was the Finnish city of Oulu founded. Reply with the year only."}, "parent_tool_use_id": null}

@@ -1,0 +1,16 @@
+[
+ "--output-format",
+ "stream-json",
+ "--verbose",
+ "--system-prompt",
+ "",
+ "--max-turns",
+ "1",
+ "--model",
+ "haiku",
+ "--setting-sources=",
+ "--max-thinking-tokens",
+ "2048",
+ "--input-format",
+ "stream-json"
+]

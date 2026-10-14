@@ -1,0 +1,2 @@
+{"type": "control_request", "request_id": "req_1_f4ee5004", "request": {"subtype": "initialize", "hooks": null}}
+{"type": "user", "session_id": "", "message": {"role": "user", "content": "Create a file named denied.txt in the working directory containing exactly: no. If you cannot, reply with exactly the word: denied"}, "parent_tool_use_id": null}

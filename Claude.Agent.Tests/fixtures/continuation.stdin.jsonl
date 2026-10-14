@@ -1,0 +1,5 @@
+{"type": "control_request", "request_id": "req_1_64b13fa0", "request": {"subtype": "initialize", "hooks": null}}
+{"type": "user", "message": {"role": "user", "content": "Run the shell command `sleep 5` with Bash in the background. Then reply with exactly the word: started"}, "parent_tool_use_id": null, "session_id": "default", "uuid": "86571e2b-5594-4376-91a2-f0bc19289d81"}
+{"type": "user", "message": {"role": "user", "content": "Say: two"}, "parent_tool_use_id": null, "session_id": "default", "uuid": "4a9391e2-ba22-4f44-af90-24a0ea18bbfb"}
+{"type": "user", "message": {"role": "user", "content": "Run the shell command `sleep 5` with Bash in the background. Then reply with exactly the word: started. When it has finished, run the shell command `wc -l notes.txt` with Bash, then reply with exactly the word: counted"}, "parent_tool_use_id": null, "session_id": "default", "uuid": "3ccb3fce-f112-41f5-b71d-79f387f6910b"}
+{"type": "user", "message": {"role": "user", "content": "Say: four"}, "parent_tool_use_id": null, "session_id": "default", "uuid": "259d0687-4bd9-47d3-9305-888cc2239c5d"}

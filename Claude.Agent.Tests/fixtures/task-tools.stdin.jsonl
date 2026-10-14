@@ -1,0 +1,2 @@
+{"type": "control_request", "request_id": "req_1_e2ac668e", "request": {"subtype": "initialize", "hooks": null}}
+{"type": "user", "session_id": "", "message": {"role": "user", "content": "Do these steps in order, one tool call each, without explaining: 1. Run the shell command `sleep 30` with Bash in the background. 2. Call TaskOutput on the task it started, without blocking, with a timeout of 1000. 3. Stop that task with TaskStop. Then reply with exactly the word: done"}, "parent_tool_use_id": null}

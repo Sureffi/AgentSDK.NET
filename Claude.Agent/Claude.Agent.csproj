@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>Claude.Agent</RootNamespace>
+    <AssemblyName>Claude.Agent</AssemblyName>
+    <PackageId>Claude.Agent</PackageId>
+    <Authors>Sureffi</Authors>
+    <Description>The Claude Agent SDK for .NET: drives the claude binary over stream-json on the account it is logged into.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageTags>claude;agent;sdk;claude-code</PackageTags>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/Sureffi/agentSDK.NET</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/Sureffi/agentSDK.NET</PackageProjectUrl>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="../README.md" Pack="true" PackagePath="/" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.12" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="10.0.12" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="10.0.12" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="10.0.12" />
+  </ItemGroup>
+  <ItemGroup>
+    <InternalsVisibleTo Include="Claude.Agent.Tests" />
+    <InternalsVisibleTo Include="Claude.Agent.Recorder" />
+  </ItemGroup>
+</Project>

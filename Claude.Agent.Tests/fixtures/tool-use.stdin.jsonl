@@ -1,0 +1,2 @@
+{"type": "control_request", "request_id": "req_1_b270ca5b", "request": {"subtype": "initialize", "hooks": null}}
+{"type": "user", "session_id": "", "message": {"role": "user", "content": "Read notes.txt in the working directory and reply with its first line only."}, "parent_tool_use_id": null}

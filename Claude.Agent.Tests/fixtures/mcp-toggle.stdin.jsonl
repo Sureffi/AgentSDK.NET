@@ -1,0 +1,7 @@
+{"type": "control_request", "request_id": "req_1_b43e7adf", "request": {"subtype": "initialize", "hooks": null}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "0d379940-f457-470c-9a3a-5e69c61ae70b", "response": {"mcp_response": {"jsonrpc": "2.0", "id": 0, "result": {"capabilities": {"experimental": {}, "tools": {"listChanged": false}}, "protocolVersion": "2025-11-25", "serverInfo": {"name": "calc", "version": "1.0.0"}}}}}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "750d819c-6072-4c36-8396-2f53c71c8ee9", "response": {"mcp_response": {"jsonrpc": "2.0", "result": {}}}}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "f63bbc55-3c4d-49fa-9444-0195039f372d", "response": {"mcp_response": {"jsonrpc": "2.0", "id": 1, "result": {"tools": [{"description": "Add two numbers", "inputSchema": {"properties": {"a": {"type": "number"}, "b": {"type": "number"}}, "required": ["a", "b"], "type": "object"}, "name": "add"}]}}}}}
+{"type": "control_request", "request_id": "req_2_8fa7278a", "request": {"subtype": "mcp_toggle", "serverName": "calc", "enabled": false}}
+{"type": "control_request", "request_id": "req_3_5ad82697", "request": {"subtype": "mcp_status"}}
+{"type": "control_request", "request_id": "req_4_8526eb0d", "request": {"subtype": "mcp_toggle", "serverName": "calc", "enabled": true}}

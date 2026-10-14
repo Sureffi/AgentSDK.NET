@@ -1,0 +1,3 @@
+{"type": "control_request", "request_id": "req_1_838deda4", "request": {"subtype": "initialize", "hooks": {"PreToolUse": [{"matcher": "Read", "hookCallbackIds": ["hook_0"]}]}}}
+{"type": "user", "session_id": "", "message": {"role": "user", "content": "Read notes.txt in the working directory and reply with its first line only."}, "parent_tool_use_id": null}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "02a2e373-c03a-4ada-813b-25b624c8c772", "response": {"hookSpecificOutput": {"hookEventName": "PreToolUse", "permissionDecision": "defer"}}}}

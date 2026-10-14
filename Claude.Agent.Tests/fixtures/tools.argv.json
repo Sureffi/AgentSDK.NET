@@ -1,0 +1,20 @@
+[
+ "--output-format",
+ "stream-json",
+ "--verbose",
+ "--system-prompt",
+ "",
+ "--tools",
+ "Glob,Grep,Read,Write,Edit,NotebookEdit,TodoWrite,WebFetch,Bash",
+ "--allowedTools",
+ "Glob,Grep,Read,Write,Edit,NotebookEdit,TodoWrite,WebFetch,Bash",
+ "--max-turns",
+ "16",
+ "--model",
+ "haiku",
+ "--setting-sources=",
+ "--effort",
+ "low",
+ "--input-format",
+ "stream-json"
+]

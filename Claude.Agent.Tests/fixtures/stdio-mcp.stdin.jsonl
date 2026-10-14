@@ -1,0 +1,7 @@
+{"type": "control_request", "request_id": "req_1_baabbcc9", "request": {"subtype": "initialize", "hooks": null}}
+{"type": "control_request", "request_id": "req_2_ae8ea283", "request": {"subtype": "mcp_status"}}
+{"type": "control_request", "request_id": "req_3_00847f01", "request": {"subtype": "mcp_reconnect", "serverName": "echo"}}
+{"type": "control_request", "request_id": "req_4_c4369c68", "request": {"subtype": "mcp_toggle", "serverName": "echo", "enabled": false}}
+{"type": "control_request", "request_id": "req_5_50a5aa2e", "request": {"subtype": "mcp_status"}}
+{"type": "control_request", "request_id": "req_6_9e1e969e", "request": {"subtype": "mcp_toggle", "serverName": "echo", "enabled": true}}
+{"type": "user", "message": {"role": "user", "content": "Use the echo tool with the text pong, then reply with exactly what it returned."}, "parent_tool_use_id": null, "session_id": "default", "uuid": "9be4dd89-c9db-47f4-bcfb-099364b24975"}

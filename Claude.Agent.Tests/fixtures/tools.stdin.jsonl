@@ -1,0 +1,22 @@
+{"type": "control_request", "request_id": "req_1_0c4f7fbd", "request": {"subtype": "initialize", "hooks": {"PreToolUse": [{"matcher": null, "hookCallbackIds": ["hook_0"]}], "PostToolUse": [{"matcher": null, "hookCallbackIds": ["hook_1"]}], "PostToolUseFailure": [{"matcher": null, "hookCallbackIds": ["hook_2"]}]}}}
+{"type": "user", "session_id": "", "message": {"role": "user", "content": "Do these steps in order, one tool call each unless a step says otherwise, without explaining: 1. Glob the pattern *.txt. 2. Grep the pattern line in notes.txt with output mode content. 3. In one message, Read notes.txt and Read cells.ipynb together. 4. Write draft.txt containing exactly: alpha. 5. Edit draft.txt replacing alpha with beta. 6. NotebookEdit cells.ipynb: replace the source of the first cell with print(2). 7. TodoWrite a list with one item, content check the draft, status completed. 8. WebFetch https://example.com with the prompt: what is the page title? 9. Run the shell command `wc -l notes.txt` with Bash. 10. Read missing.txt. Then reply with exactly the word: done"}, "parent_tool_use_id": null}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "ca886e18-fe9d-4c9c-a0da-3933fcca138b", "response": {}}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "1b34ea72-f45d-4ad5-a95a-80e759a86174", "response": {}}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "850781cb-494d-45f4-8428-686adb898b44", "response": {}}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "8895c99e-5ce0-452f-aee0-aef80f218d2d", "response": {}}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "44d5da73-33b3-4d21-a1f1-eb4114ce2414", "response": {}}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "457c737c-c48d-46f8-9f92-24e1cd911289", "response": {}}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "74e56fa6-1afb-4b4f-89b5-cdcc552c70bc", "response": {}}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "84a64248-1871-4eaf-9f7c-7cc0112e49f0", "response": {}}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "b952fffe-10ab-4ef3-bdd4-b8dc7d308f09", "response": {}}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "da19198c-b8ac-4a6f-a6ce-28883a6b2183", "response": {}}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "458021eb-f4e7-49b9-83d4-beb9dbd777b5", "response": {}}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "19a0f5f1-0a5d-4bb6-af7d-c2bd05d46cbb", "response": {}}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "9d8435ab-edce-4593-af9c-6f00e4e46d40", "response": {}}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "9f006f3b-348c-4b59-b86b-595713c58f2f", "response": {}}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "2bbbc32e-1b3c-4cae-ac14-e03bd47bd64b", "response": {}}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "0c90c268-9a71-4d11-ac0b-d1cc4ec14e23", "response": {}}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "b2999ae8-f74f-4e57-a2f1-373231370a27", "response": {}}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "6bb91146-71c4-4dff-88df-e178b6e57cb6", "response": {}}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "b55b03b1-6d2a-42ea-a8c2-bf0c2ab2663f", "response": {}}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "6422a026-d8e7-4ffb-b1a9-23979fcf3537", "response": {}}}

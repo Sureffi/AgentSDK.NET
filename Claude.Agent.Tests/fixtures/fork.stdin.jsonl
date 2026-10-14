@@ -1,0 +1,2 @@
+{"type": "control_request", "request_id": "req_1_a8e75fc0", "request": {"subtype": "initialize", "hooks": null}}
+{"type": "user", "session_id": "", "message": {"role": "user", "content": "Reply with exactly the word you replied last time."}, "parent_tool_use_id": null}

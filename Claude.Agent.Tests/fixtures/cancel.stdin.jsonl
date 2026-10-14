@@ -1,0 +1,5 @@
+{"type": "control_request", "request_id": "req_1_20ffd237", "request": {"subtype": "initialize", "hooks": {"PreToolUse": [{"matcher": "Read", "hookCallbackIds": ["hook_0"]}]}}}
+{"type": "user", "message": {"role": "user", "content": "Read notes.txt in the working directory and reply with its first line only."}, "parent_tool_use_id": null, "session_id": "default", "uuid": "a1c7a420-b1b8-483a-85d1-9e9f9395cc0f"}
+{"type": "control_request", "request_id": "req_2_7ec71678", "request": {"subtype": "interrupt"}}
+{"type": "user", "message": {"role": "user", "content": "Create a file named cancelled.txt in the working directory containing exactly: no"}, "parent_tool_use_id": null, "session_id": "default", "uuid": "a85e5cde-3755-4c56-a160-75dee6b4b734"}
+{"type": "control_request", "request_id": "req_3_75da408f", "request": {"subtype": "interrupt"}}

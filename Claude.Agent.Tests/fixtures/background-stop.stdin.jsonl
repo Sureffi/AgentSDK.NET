@@ -1,0 +1,3 @@
+{"type": "control_request", "request_id": "req_1_1e7f290c", "request": {"subtype": "initialize", "hooks": {"Stop": [{"matcher": null, "hookCallbackIds": ["hook_0"]}]}}}
+{"type": "user", "session_id": "", "message": {"role": "user", "content": "Use the Bash tool with run_in_background set to true to run: sleep 5. Then reply with exactly the word: started"}, "parent_tool_use_id": null}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "a417c2b1-c580-4c37-b120-b83827071af5", "response": {}}}

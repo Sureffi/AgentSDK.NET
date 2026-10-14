@@ -1,0 +1,9 @@
+{"type": "control_request", "request_id": "req_1_af5a895e", "request": {"subtype": "initialize", "hooks": null}}
+{"type": "control_request", "request_id": "req_2_e66ea215", "request": {"subtype": "mcp_status"}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "60426052-5479-4ebf-8ae2-1b1677bea81c", "response": {"mcp_response": {"jsonrpc": "2.0", "id": 0, "result": {"capabilities": {"experimental": {}, "tools": {"listChanged": false}}, "protocolVersion": "2025-11-25", "serverInfo": {"name": "calc", "version": "1.0.0"}}}}}}
+{"type": "control_request", "request_id": "req_3_0e5e26aa", "request": {"subtype": "mcp_reconnect", "serverName": "calc"}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "ff73f279-554d-48e3-ac03-19e515c669b8", "response": {"mcp_response": {"jsonrpc": "2.0", "result": {}}}}}
+{"type": "control_request", "request_id": "req_4_498ea1ad", "request": {"subtype": "mcp_toggle", "serverName": "calc", "enabled": false}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "ebd2fc9b-00fd-439d-9f79-4fe7bea92e11", "response": {"mcp_response": {"jsonrpc": "2.0", "id": 1, "result": {"tools": [{"description": "Add two numbers", "inputSchema": {"properties": {"a": {"type": "number"}, "b": {"type": "number"}}, "required": ["a", "b"], "type": "object"}, "name": "add"}]}}}}}
+{"type": "user", "message": {"role": "user", "content": "Use the add tool to add 2 and 3, then reply with just the number."}, "parent_tool_use_id": null, "session_id": "default", "uuid": "778efa2a-9bfe-495c-bb12-288f688b311c"}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "dafcf847-8c7c-44e6-b2ab-b9528ae241cc", "response": {"mcp_response": {"jsonrpc": "2.0", "id": 2, "result": {"content": [{"text": "5", "type": "text"}], "isError": false}}}}}

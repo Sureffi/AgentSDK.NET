@@ -1,0 +1,21 @@
+[
+ "--output-format",
+ "stream-json",
+ "--verbose",
+ "--system-prompt",
+ "",
+ "--tools",
+ "",
+ "--max-turns",
+ "1",
+ "--model",
+ "haiku",
+ "--mcp-config",
+ "{\"mcpServers\": {\"calc\": {\"type\": \"sdk\", \"name\": \"calc\"}, \"echo\": {\"type\": \"stdio\", \"command\": \"/tmp/claude-agent-fixtures/cwd/echo-server\", \"args\": []}}}",
+ "--strict-mcp-config",
+ "--setting-sources=",
+ "--effort",
+ "low",
+ "--input-format",
+ "stream-json"
+]

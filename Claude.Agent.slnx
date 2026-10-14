@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="Claude.Agent/Claude.Agent.csproj" />
+  <Project Path="Claude.Agent.Tests/Claude.Agent.Tests.csproj" />
+  <Project Path="Claude.Agent.Tests/FakeClaude/FakeClaude.csproj" />
+  <Project Path="Claude.Agent.Tests/EchoServer/EchoServer.csproj" />
+  <Project Path="Claude.Agent.Recorder/Claude.Agent.Recorder.csproj" />
+  <Project Path="samples/Mint/Mint.csproj" />
+</Solution>

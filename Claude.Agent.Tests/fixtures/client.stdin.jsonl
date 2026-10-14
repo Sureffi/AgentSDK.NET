@@ -1,0 +1,9 @@
+{"type": "control_request", "request_id": "req_1_7a1526d9", "request": {"subtype": "initialize", "hooks": null, "excludeDynamicSections": false}}
+{"type": "user", "message": {"role": "user", "content": "Say: one"}, "parent_tool_use_id": null, "session_id": "default", "uuid": "7d59b0bd-c1d6-4851-aebd-224956ad6a16"}
+{"type": "control_request", "request_id": "req_2_ac78b9fa", "request": {"subtype": "set_model", "model": "haiku"}}
+{"type": "control_request", "request_id": "req_3_7972eb2f", "request": {"subtype": "set_permission_mode", "mode": "acceptEdits"}}
+{"type": "control_request", "request_id": "req_4_7f5fa2d8", "request": {"subtype": "get_context_usage"}}
+{"type": "control_request", "request_id": "req_5_1135df8a", "request": {"subtype": "mcp_status"}}
+{"type": "user", "message": {"role": "user", "content": "Say: two"}, "parent_tool_use_id": null, "session_id": "default", "uuid": "a8d30de6-6418-4d14-b25f-17d1f439a4f9"}
+{"type": "user", "message": {"role": "user", "content": "Count slowly from 1 to 200, one number per line, no other text."}, "parent_tool_use_id": null, "session_id": "default", "uuid": "d08a68bf-76ae-4f2f-a869-de9ac8a2d0ec"}
+{"type": "control_request", "request_id": "req_6_7bdd1965", "request": {"subtype": "interrupt"}}

@@ -1,0 +1,21 @@
+[
+ "--output-format",
+ "stream-json",
+ "--verbose",
+ "--system-prompt",
+ "",
+ "--tools",
+ "Read",
+ "--max-turns",
+ "3",
+ "--model",
+ "haiku",
+ "--permission-prompt-tool",
+ "stdio",
+ "--include-hook-events",
+ "--setting-sources=",
+ "--effort",
+ "low",
+ "--input-format",
+ "stream-json"
+]

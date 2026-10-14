@@ -1,0 +1,21 @@
+[
+ "--output-format",
+ "stream-json",
+ "--verbose",
+ "--system-prompt",
+ "",
+ "--tools",
+ "Write",
+ "--allowedTools",
+ "Write",
+ "--max-turns",
+ "3",
+ "--model",
+ "haiku",
+ "--setting-sources=",
+ "--replay-user-messages",
+ "--effort",
+ "low",
+ "--input-format",
+ "stream-json"
+]

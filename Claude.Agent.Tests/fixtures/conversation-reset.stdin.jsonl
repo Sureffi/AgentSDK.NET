@@ -1,0 +1,4 @@
+{"type": "control_request", "request_id": "req_1_e054a412", "request": {"subtype": "initialize", "hooks": null}}
+{"type": "user", "message": {"role": "user", "content": "Say: one"}, "parent_tool_use_id": null, "session_id": "default", "uuid": "d50636e9-6311-4ac3-84a8-64bd52f56cfa"}
+{"type": "user", "message": {"role": "user", "content": "/clear"}, "parent_tool_use_id": null, "session_id": "default", "uuid": "d1781ce5-f55f-4022-92c0-f215085b74fa"}
+{"type": "user", "message": {"role": "user", "content": "Say: two"}, "parent_tool_use_id": null, "session_id": "default", "uuid": "5579fc4d-89ec-40e5-bb9c-c9644d61e9fb"}

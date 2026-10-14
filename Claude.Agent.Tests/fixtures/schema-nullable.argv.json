@@ -1,0 +1,18 @@
+[
+ "--output-format",
+ "stream-json",
+ "--verbose",
+ "--system-prompt",
+ "",
+ "--max-turns",
+ "2",
+ "--model",
+ "haiku",
+ "--setting-sources=",
+ "--effort",
+ "low",
+ "--json-schema",
+ "{\"description\": \"A report on one word.\", \"type\": [\"object\", \"null\"], \"properties\": {\"Word\": {\"description\": \"The word, as it was given.\", \"type\": \"string\", \"maxLength\": 16}, \"Letters\": {\"description\": \"How many letters the word has.\", \"type\": \"integer\"}, \"Spelling\": {\"description\": \"The word's letters in order, one letter a string.\", \"type\": \"array\", \"items\": {\"type\": [\"string\", \"null\"]}, \"maxItems\": 16}, \"PartOfSpeech\": {\"description\": \"The part of speech the word is most often.\", \"enum\": [\"Noun\", \"Verb\", \"Adjective\", \"Interjection\", \"Other\"]}, \"Counts\": {\"description\": \"The word's letters, counted by kind.\", \"type\": \"object\", \"properties\": {\"Vowels\": {\"type\": \"integer\"}, \"Consonants\": {\"type\": \"integer\"}}, \"required\": [\"Vowels\", \"Consonants\"], \"additionalProperties\": false}, \"Remark\": {\"type\": [\"string\", \"null\"], \"maxLength\": 80}}, \"required\": [\"Word\", \"Letters\", \"Spelling\", \"PartOfSpeech\", \"Counts\"], \"additionalProperties\": false}",
+ "--input-format",
+ "stream-json"
+]

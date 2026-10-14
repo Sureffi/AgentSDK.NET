@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Claude.Agent.Recorder</RootNamespace>
+    <IsPackable>false</IsPackable>
+    <!-- A fixture that fails is reported and the next one runs: the catch is general on purpose. -->
+    <NoWarn>$(NoWarn);CA1031</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../Claude.Agent/Claude.Agent.csproj" />
+  </ItemGroup>
+
+</Project>

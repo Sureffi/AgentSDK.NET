@@ -1,0 +1,3 @@
+{"type": "control_request", "request_id": "req_1_e74cd4c5", "request": {"subtype": "initialize", "hooks": null}}
+{"type": "user", "session_id": "", "message": {"role": "user", "content": "Create a file named hello.txt in the working directory containing exactly: hello"}, "parent_tool_use_id": null}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "62e89848-ae76-4286-94f3-4c916bbf92ab", "response": {"behavior": "allow", "updatedInput": {"file_path": "/tmp/claude-agent-fixtures/cwd/hello.txt", "content": "hello"}}}}

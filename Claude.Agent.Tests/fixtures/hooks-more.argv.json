@@ -1,0 +1,22 @@
+[
+ "--output-format",
+ "stream-json",
+ "--verbose",
+ "--system-prompt",
+ "",
+ "--tools",
+ "Read,Agent,Write",
+ "--allowedTools",
+ "Read,Agent",
+ "--max-turns",
+ "6",
+ "--model",
+ "haiku",
+ "--permission-prompt-tool",
+ "stdio",
+ "--setting-sources=",
+ "--effort",
+ "low",
+ "--input-format",
+ "stream-json"
+]

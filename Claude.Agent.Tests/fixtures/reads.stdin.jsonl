@@ -1,0 +1,14 @@
+{"type": "control_request", "request_id": "req_1_974eeacd", "request": {"subtype": "initialize", "hooks": {"PreToolUse": [{"matcher": null, "hookCallbackIds": ["hook_0"]}], "PostToolUse": [{"matcher": null, "hookCallbackIds": ["hook_1"]}], "PostToolUseFailure": [{"matcher": null, "hookCallbackIds": ["hook_2"]}]}}}
+{"type": "user", "session_id": "", "message": {"role": "user", "content": "Do these steps in order, one tool call each, without explaining: 1. Read notes.txt from line 2 with a limit of 1 line. 2. Read notes.txt. 3. Read notes.txt again. 4. Read dot.png. 5. Read page.pdf. 6. Read page.pdf with pages 1. Then reply with exactly the word: done"}, "parent_tool_use_id": null}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "ca1115d9-e663-4057-a146-0007cedf0a34", "response": {}}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "a985f399-b9ae-4f65-a9b7-cfcfce2007a2", "response": {}}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "ef8280c4-e7a6-4223-9dff-d5b1609ec6cb", "response": {}}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "97a43d52-1a1c-45af-99d9-e907b7c1e3ba", "response": {}}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "2a01c00d-dea0-4745-8df7-fa703d792675", "response": {}}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "8e4b06f6-3954-4046-ad6e-f7b265f6d318", "response": {}}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "b23ae0b0-9bed-4670-84aa-7aff150be660", "response": {}}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "8e66ce11-209b-4780-ab9b-805a608c7706", "response": {}}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "05267b12-31ce-49b5-b251-d1b27fdd4399", "response": {}}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "416fe710-53b2-4a22-9bc9-d183f5c28cc1", "response": {}}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "0eb5b7a4-1992-45bd-8d49-e8fb678a3bde", "response": {}}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "93a92e95-5925-4579-8b23-ec6dedaa1d33", "response": {}}}

@@ -1,0 +1,3 @@
+{"type": "control_request", "request_id": "req_1_7719911c", "request": {"subtype": "initialize", "hooks": null}}
+{"type": "user", "message": {"role": "user", "content": "Use the Bash tool with run_in_background set to true to run: sleep 30. Then reply with exactly the word: started"}, "parent_tool_use_id": null, "session_id": "default", "uuid": "790d02dd-0b03-43ee-a75e-d58b685a397f"}
+{"type": "control_request", "request_id": "req_2_b4d41850", "request": {"subtype": "interrupt"}}

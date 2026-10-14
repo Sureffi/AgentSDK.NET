@@ -1,0 +1,2 @@
+{"type": "control_request", "request_id": "req_1_f3925241", "request": {"subtype": "initialize", "hooks": null}}
+{"type": "control_request", "request_id": "req_2_165502b3", "request": {"subtype": "stop_task", "task_id": "task_00000000"}}

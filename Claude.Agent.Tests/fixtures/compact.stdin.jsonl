@@ -1,0 +1,5 @@
+{"type": "control_request", "request_id": "req_1_f5c80616", "request": {"subtype": "initialize", "hooks": {"PreCompact": [{"matcher": null, "hookCallbackIds": ["hook_0"]}]}}}
+{"type": "user", "message": {"role": "user", "content": "Say: one"}, "parent_tool_use_id": null, "session_id": "default", "uuid": "595cce3e-0b9f-4ddc-b5d8-87546ca2f23c"}
+{"type": "user", "message": {"role": "user", "content": "/compact"}, "parent_tool_use_id": null, "session_id": "default", "uuid": "69257138-6e71-4870-9003-903c4b7b2aa6"}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "7089ec91-bb33-450e-ac76-43eb4851febe", "response": {}}}
+{"type": "user", "message": {"role": "user", "content": "Say: two"}, "parent_tool_use_id": null, "session_id": "default", "uuid": "03a45ea6-5927-49b4-bea4-415c8358965b"}

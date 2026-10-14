@@ -1,0 +1,22 @@
+[
+ "--output-format",
+ "stream-json",
+ "--verbose",
+ "--system-prompt",
+ "",
+ "--tools",
+ "",
+ "--allowedTools",
+ "mcp__slow__wait",
+ "--max-turns",
+ "3",
+ "--model",
+ "haiku",
+ "--mcp-config",
+ "{\"mcpServers\": {\"slow\": {\"type\": \"sdk\", \"name\": \"slow\"}}}",
+ "--setting-sources=",
+ "--effort",
+ "low",
+ "--input-format",
+ "stream-json"
+]

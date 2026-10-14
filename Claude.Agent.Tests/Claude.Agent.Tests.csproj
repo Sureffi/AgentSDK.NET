@@ -1,0 +1,37 @@
+<Project Sdk="MSTest.Sdk/3.10.0">
+  <PropertyGroup>
+    <RootNamespace>Claude.Agent.Tests</RootNamespace>
+    <IsPackable>false</IsPackable>
+    <EnableMSTestRunner>true</EnableMSTestRunner>
+    <TestingPlatformDotnetTestSupport>true</TestingPlatformDotnetTestSupport>
+    <GenerateTestingPlatformEntryPoint>false</GenerateTestingPlatformEntryPoint>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../Claude.Agent/Claude.Agent.csproj" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.12" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fixtures/**" CopyToOutputDirectory="PreserveNewest" />
+    <Compile Remove="FakeClaude/**;EchoServer/**" />
+    <!-- The recorder's scrub, compiled here too so TreeTests holds it without starting the binary. -->
+    <Compile Include="../Claude.Agent.Recorder/FixtureScrub.cs" Link="Architecture/FixtureScrub.cs" />
+    <!-- The type the schema fixtures were recorded with, so the schema the tests rebuild is its own. -->
+    <Compile Include="../Claude.Agent.Recorder/WordReport.cs" Link="Sessions/WordReport.cs" />
+    <Compile Include="../Claude.Agent.Recorder/WordEvidence.cs" Link="Sessions/WordEvidence.cs" />
+    <None Remove="FakeClaude/**;EchoServer/**" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="FakeClaude/FakeClaude.csproj" ReferenceOutputAssembly="false" />
+    <ProjectReference Include="EchoServer/EchoServer.csproj" ReferenceOutputAssembly="false" />
+  </ItemGroup>
+  <!-- The fake binary is fake/claude and the stdio MCP server mcp/echo-server in the output directory: two
+       apphosts with their dlls beside them, built from the two projects above. -->
+  <Target Name="CopyFakeBinaries" AfterTargets="Build">
+    <ItemGroup>
+      <FakeClaudeFiles Include="FakeClaude/bin/$(Configuration)/$(TargetFramework)/**/*" />
+      <EchoServerFiles Include="EchoServer/bin/$(Configuration)/$(TargetFramework)/**/*" />
+    </ItemGroup>
+    <Copy SourceFiles="@(FakeClaudeFiles)" DestinationFiles="@(FakeClaudeFiles->'$(OutDir)fake/%(RecursiveDir)%(Filename)%(Extension)')" SkipUnchangedFiles="true" />
+    <Copy SourceFiles="@(EchoServerFiles)" DestinationFiles="@(EchoServerFiles->'$(OutDir)mcp/%(RecursiveDir)%(Filename)%(Extension)')" SkipUnchangedFiles="true" />
+  </Target>
+</Project>

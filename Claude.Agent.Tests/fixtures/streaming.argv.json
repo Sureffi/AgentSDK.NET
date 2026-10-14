@@ -1,0 +1,15 @@
+[
+ "--output-format",
+ "stream-json",
+ "--verbose",
+ "--system-prompt",
+ "Answer in one short sentence.",
+ "--max-turns",
+ "1",
+ "--model",
+ "haiku",
+ "--include-partial-messages",
+ "--setting-sources=",
+ "--input-format",
+ "stream-json"
+]

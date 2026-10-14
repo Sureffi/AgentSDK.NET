@@ -1,0 +1,23 @@
+[
+ "--output-format",
+ "stream-json",
+ "--verbose",
+ "--system-prompt",
+ "",
+ "--tools",
+ "Agent",
+ "--allowedTools",
+ "Agent,mcp__echo__echo",
+ "--max-turns",
+ "3",
+ "--model",
+ "haiku",
+ "--mcp-config",
+ "{\"mcpServers\": {\"echo\": {\"type\": \"stdio\", \"command\": \"/tmp/claude-agent-fixtures/cwd/echo-server\", \"args\": []}}}",
+ "--strict-mcp-config",
+ "--setting-sources=",
+ "--effort",
+ "low",
+ "--input-format",
+ "stream-json"
+]

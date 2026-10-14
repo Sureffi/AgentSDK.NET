@@ -1,0 +1,3 @@
+{"type": "control_request", "request_id": "req_1_7017a41d", "request": {"subtype": "initialize", "hooks": null}}
+{"type": "user", "message": {"role": "user", "content": "Create a file named rewound.txt in the working directory containing exactly: before"}, "parent_tool_use_id": null, "session_id": "default", "uuid": "5ac52038-4aad-488b-aaa5-07a554720e0c"}
+{"type": "control_request", "request_id": "req_2_c6dd069a", "request": {"subtype": "rewind_files", "user_message_id": "5ac52038-4aad-488b-aaa5-07a554720e0c"}}

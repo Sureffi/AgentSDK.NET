@@ -1,0 +1,20 @@
+[
+ "--output-format",
+ "stream-json",
+ "--verbose",
+ "--system-prompt",
+ "",
+ "--max-turns",
+ "1",
+ "--model",
+ "haiku",
+ "--setting-sources=",
+ "--max-thinking-tokens",
+ "1024",
+ "--effort",
+ "medium",
+ "--json-schema",
+ "{\"type\": \"object\", \"properties\": {\"word\": {\"type\": \"string\"}, \"letters\": {\"type\": \"integer\"}}, \"required\": [\"word\", \"letters\"], \"additionalProperties\": false}",
+ "--input-format",
+ "stream-json"
+]

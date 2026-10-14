@@ -1,0 +1,2 @@
+{"type": "control_request", "request_id": "req_1_3074f50c", "request": {"subtype": "initialize", "hooks": null}}
+{"type": "user", "session_id": "", "message": {"role": "user", "content": "Think briefly, then answer: the word is pong; how many letters does it have?"}, "parent_tool_use_id": null}

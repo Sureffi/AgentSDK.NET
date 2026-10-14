@@ -1,0 +1,23 @@
+{"type": "control_request", "request_id": "req_1_933831dd", "request": {"subtype": "initialize", "hooks": {"PreToolUse": [{"matcher": null, "hookCallbackIds": ["hook_0"]}], "PostToolUse": [{"matcher": null, "hookCallbackIds": ["hook_1"]}], "PostToolUseFailure": [{"matcher": null, "hookCallbackIds": ["hook_2"]}]}}}
+{"type": "user", "session_id": "", "message": {"role": "user", "content": "Do these steps in order, one tool call each, without explaining: 1. Glob the pattern *.txt in the directory /tmp/claude-agent-fixtures/cwd. 2. Grep the pattern line with output mode files_with_matches. 3. Grep the pattern LINE case-insensitively with output mode count. 4. Grep the pattern second in notes.txt with output mode content, with line numbers, one line of context before each match, and a head limit of 1. 5. Write draft.txt containing exactly: a a. 6. Write draft.txt containing exactly: a a a. 7. Edit draft.txt replacing every a with b. 8. Edit draft.txt replacing zzz with y. 9. Run the shell command `wc -l notes.txt` with Bash with a timeout of 30000. 10. Run the shell command `grep zzz notes.txt` with Bash. 11. Run the shell command `ls nowhere` with Bash. 12. Run the shell command `touch guarded.txt` with Bash. Then reply with exactly the word: done"}, "parent_tool_use_id": null}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "2f6f6c38-074e-4829-bd27-41874ee1f6e3", "response": {}}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "89a2f6ac-57d5-482e-b7b7-e8afe873d1f9", "response": {}}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "a01930bf-b653-419d-be0d-fcdd6e88e686", "response": {}}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "23b45a51-dd01-4c0d-be06-936933dcb34b", "response": {}}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "3e193c70-fa1e-4b64-873e-ae1e59387c93", "response": {}}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "3fcba9c0-1511-4b84-9eb8-2f6c2fc98cb9", "response": {}}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "63c1283e-9ab8-4fd9-b612-a09b8877a4d9", "response": {}}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "ad615d8d-3eed-43de-a6fe-9b1171d52b7c", "response": {}}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "66534ff4-5975-4e39-9a71-19fb01ddfb5d", "response": {}}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "12cf7e53-aceb-4625-98e5-fc2f2faf25b0", "response": {}}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "70a354bd-2640-46c4-8eca-e1abacf6d266", "response": {}}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "87010c96-3f60-4806-a9ee-50416a92ef3d", "response": {}}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "0cb7a517-4920-4c08-baf2-6a229b57ca6c", "response": {}}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "aceb3630-d48f-427b-8fb4-136890f39530", "response": {}}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "1fd1e0ab-098a-4345-ae5e-5f3ee2a520d5", "response": {}}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "f1e946b1-6f8b-46ee-b558-b01ac901aae1", "response": {}}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "2885a1a5-a879-46fe-8afb-fde6ecd61ff5", "response": {}}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "be0e0a57-1721-47ab-87ce-20ae4c39389a", "response": {}}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "00b96659-7c26-442c-b7e8-d1927a42a25e", "response": {}}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "6cc7533c-d7fe-4c49-8f0d-5285acebae7a", "response": {}}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "927bb96e-e96d-44ee-a108-82cf5b1e5ada", "response": {"hookSpecificOutput": {"hookEventName": "PreToolUse", "permissionDecision": "deny", "permissionDecisionReason": "guarded: no new files"}}}}

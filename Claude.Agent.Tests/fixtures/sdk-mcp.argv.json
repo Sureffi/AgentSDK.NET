@@ -1,0 +1,22 @@
+[
+ "--output-format",
+ "stream-json",
+ "--verbose",
+ "--system-prompt",
+ "",
+ "--tools",
+ "",
+ "--allowedTools",
+ "mcp__calc__add",
+ "--max-turns",
+ "3",
+ "--model",
+ "haiku",
+ "--mcp-config",
+ "{\"mcpServers\": {\"calc\": {\"type\": \"sdk\", \"name\": \"calc\"}}}",
+ "--setting-sources=",
+ "--effort",
+ "low",
+ "--input-format",
+ "stream-json"
+]

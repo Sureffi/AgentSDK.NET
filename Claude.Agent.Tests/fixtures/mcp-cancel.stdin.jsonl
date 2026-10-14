@@ -1,0 +1,7 @@
+{"type": "control_request", "request_id": "req_1_ca4b993a", "request": {"subtype": "initialize", "hooks": null}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "04a19cf1-156c-44ae-9b6c-3884685f1c5a", "response": {"mcp_response": {"jsonrpc": "2.0", "id": 0, "result": {"capabilities": {"experimental": {}, "tools": {"listChanged": false}}, "protocolVersion": "2025-11-25", "serverInfo": {"name": "slow", "version": "1.0.0"}}}}}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "815fb83e-8db7-4359-b6f4-4571b11c0883", "response": {"mcp_response": {"jsonrpc": "2.0", "result": {}}}}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "a5642eb9-644c-4f37-9e52-736e476134f5", "response": {"mcp_response": {"jsonrpc": "2.0", "id": 1, "result": {"tools": [{"description": "Waits until it is told to stop", "inputSchema": {"properties": {}, "type": "object"}, "name": "wait"}]}}}}}
+{"type": "user", "message": {"role": "user", "content": "Call the wait tool once. Then reply with exactly the word: waited"}, "parent_tool_use_id": null, "session_id": "default", "uuid": "28cc3d61-9ec7-453e-b525-ae2ac34a85c5"}
+{"type": "control_request", "request_id": "req_2_bd00faf4", "request": {"subtype": "interrupt"}}
+{"type": "control_response", "response": {"subtype": "success", "request_id": "3fc475f2-e002-47d4-8833-648079650726", "response": {"mcp_response": {"jsonrpc": "2.0", "result": {}}}}}
